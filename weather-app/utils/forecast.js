@@ -1,7 +1,6 @@
 const request = require("request")
 const forecast = (latitude, longitude, callback) => {
   const url = `https://api.darksky.net/forecast/8a0045d572520f63c6299049baafdfb2/${latitude},${longitude}`
-  console.log(url);
   request({
     url: url,
     json: true
