@@ -16,4 +16,3 @@ geocode(userInput, (error, {latitude, longitude, location}) => {
     console.log(forecastData);
   })
 })
-he;;o
